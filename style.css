@@ -1,0 +1,48 @@
+body{
+    overflow-x: hidden;
+}
+#inputs{
+    display: flex;
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+}
+
+#inputs #left{
+    width: 10%;
+    padding: 10px;
+}
+
+#inputs input{
+    width: 80%;
+    padding: 10px;
+}
+
+#inputs input::placeholder{
+    text-align: center;
+}
+
+#inputs #right{
+    width: 10%;
+    padding: 10px;
+}
+span{
+    float: right;
+    border: 2px solid red;
+    width: 30%;
+    background-color: red;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+p{
+    border: 2px solid green;
+    width: 30%;
+    background-color: green;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+}
